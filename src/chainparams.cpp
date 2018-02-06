@@ -137,10 +137,10 @@ public:
         nDelayGetHeadersTime = 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1517932695, 838712, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517934749, 2724848, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000fb27956e799ad0d0df526f9491ad81d8aeb33279f0ea894cb63597a910a"));
-        assert(genesis.hashMerkleRoot == uint256S("0x3fcf9913a58cc1b0bea3b63f886c913eafa2e709211900e59f34f29612c6c5a7"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000ce307df28805d8c35b4ccd4b8d513720f89a0761f4578727670fb0fe91e"));
+        assert(genesis.hashMerkleRoot == uint256S("0x65aef524b82105573bbdd2ea54f8ff2fa98b6dd717466fc904967e90219f0fd5"));
 
         //vSeeds.push_back(CDNSSeedData("dash.org", "dnsseed.dash.org"));
         //vSeeds.push_back(CDNSSeedData("dashdot.io", "dnsseed.dashdot.io"));
@@ -272,10 +272,10 @@ public:
         nDelayGetHeadersTime = 24 * 60 * 60;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1517932814, 218156, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517935010, 1057473, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000f49a6623011c0021271a35e7347ad8938c2fdf63dffd073c0519e5b4f6f"));
-        assert(genesis.hashMerkleRoot == uint256S("0x3fcf9913a58cc1b0bea3b63f886c913eafa2e709211900e59f34f29612c6c5a7"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000478753f90340cb20fcfbbe18285861c907de03a9e8b53d485d1730e7345"));
+        assert(genesis.hashMerkleRoot == uint256S("0x65aef524b82105573bbdd2ea54f8ff2fa98b6dd717466fc904967e90219f0fd5"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
