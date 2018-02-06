@@ -24,7 +24,7 @@ apt-get install libqrencode-dev
 Clone Repository
 ----------------
 ```
-git clone xxx
+git clone https://github.com/WildCoinNetwork/WildCoin.git
 ```
 Build
 -----
