@@ -10,6 +10,7 @@ apt-get install build-essential libtool autotools-dev automake pkg-config libssl
 apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
 apt-get install libboost-all-dev
 
+apt-get install software-properties-common
 add-apt-repository ppa:bitcoin/bitcoin
 apt-get update
 apt-get install libdb4.8-dev libdb4.8++-dev
@@ -24,6 +25,7 @@ apt-get install libqrencode-dev
 Clone Repository
 ----------------
 ```
+apt-get install git
 git clone https://github.com/WildCoinNetwork/WildCoin.git
 ```
 Build
@@ -37,5 +39,5 @@ make install
 Start
 -----
 ```
-dash-qt --addnode=<IP>
+dash-qt -addnode=<IP>
 ```
