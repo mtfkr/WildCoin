@@ -1,7 +1,7 @@
-System
-------
+WildCoin - Linux Build Guidance
+===============================
 
-Linux image e.g. Ubuntu (docker image is fine as well)
+Linux e.g. Ubuntu (docker image is fine as well)
 
 Build Dependencies
 ------------------
@@ -22,22 +22,22 @@ UI Dependencies
 apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 apt-get install libqrencode-dev
 ```
-Clone Repository
+Clone WildCoin Repository
 ----------------
 ```
 apt-get install git
 git clone https://github.com/WildCoinNetwork/WildCoin.git
 ```
-Build
------
+Build WildCoin
+--------------
 ```
 ./autogen.sh
 ./configure
 make
 make install
 ```
-Start
------
+Start WildCoin Wallet (incl. Node)
+----------------------------------
 ```
 dash-qt -addnode=<IP>
 ```
