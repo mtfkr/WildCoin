@@ -24,7 +24,7 @@ packages:
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
 - "url": "https://github.com/WildCoinNetwork/WildCoin.git"
-  "dir": "WildCoind"
+  "dir": "WildCoin"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
